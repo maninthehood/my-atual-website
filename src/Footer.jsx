@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import "./App.css"
 export default function Footer(){
 	return (
 		<>
@@ -7,8 +8,8 @@ export default function Footer(){
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
-              <a href="https://flowbite.com/" class="flex items-center">
-                  <img src="https://cdn4.iconfinder.com/data/icons/emoji-18/61/15-64.png" class="h-8 mr-3" alt="FlowBite Logo" />
+              <a href="#" class="flex items-center">
+                  <img src="https://img.icons8.com/?size=512&id=bzZ1vLaK5u1A&format=png" class="h-8 mr-3" alt="FlowBite Logo" />
                   <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">              <Link to="/">`Hospital Name`</Link></span>
               </a>
           </div>
@@ -17,7 +18,7 @@ export default function Footer(){
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
                   <ul class="text-gray-600 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="https://flowbite.com/" class="hover:underline">React JS </a>
+                          <a target="_blank" href="https://reactjs.dev" class="hover:underline">React JS </a>
                       </li>
                       <li>
                           <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
