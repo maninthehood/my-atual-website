@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Goals() {
+export default function Staff() {
   return (
     <div className="">
 			

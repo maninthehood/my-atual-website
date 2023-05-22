@@ -43,20 +43,21 @@ export default function NavBar() {
 
               <li>
                 <Link
-                  className="block py-2 pl-3 pr-4 text-white bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+                  className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
 
-                  to="/about">About</Link>
+                  to="/staff">Staff</Link>
               </li>
               <li>
                 <Link
-                  className="block py-2 pl-3 pr-4 text-white bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+                  className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+									
 
                   to="/goals">Goals</Link>
               </li>
               <li>
                 <Link
-                  className="block py-2 pl-3 pr-4 text-white bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-
+                  className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+									
                   to="/profile">Login</Link>
               </li>
             </ul>

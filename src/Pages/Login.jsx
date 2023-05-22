@@ -4,7 +4,7 @@ export default function Login() {
 	return (
 		<>
 			<div className='bg-gray-900'>
-				<div class="w-full lg:max-w-xl md:max-h-xl mx-auto p-6 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl dark:bg-gray-800">
+				<div class="w-full lg:max-w-xl md:max-h-xl mx-auto p-6 mb-52 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl   dark:bg-gray-800">
 					<h2 class="text-2xl font-bold text-gray-900 dark:text-white">
 						Sign in to `Hospital Name`
 					</h2>
