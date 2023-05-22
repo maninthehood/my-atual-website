@@ -45,7 +45,7 @@ export default function NavBar() {
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
 
-                  to="/staff">Staff</Link>
+                  to="/about">About</Link>
               </li>
               <li>
                 <Link
@@ -59,6 +59,16 @@ export default function NavBar() {
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
 									
                   to="/profile">Login</Link>
+              </li>
+							
+							<li>
+								
+                <Link
+                  className=" block py-2 pl-3 pr-4  dark:bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+									
+                  to="/staff">
+									
+									Staff of the month</Link>
               </li>
             </ul>
           </div>

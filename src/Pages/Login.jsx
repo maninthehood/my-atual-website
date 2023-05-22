@@ -3,8 +3,13 @@ import React from 'react';
 export default function Login() {
 	return (
 		<>
+			<div class="flex">
+				<div class="dark:bg-slate-900">
+			<img src=""/>
+
+				</div>
 			<div className='bg-gray-900'>
-				<div class="w-full lg:max-w-xl md:max-h-xl mx-auto p-6 mb-52 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl   dark:bg-gray-800">
+				<div class="md:w-[690px] lg:max-w-xl md:max-h-xl m-auto  p-6 my-24 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl   dark:bg-gray-800">
 					<h2 class="text-2xl font-bold text-gray-900 dark:text-white">
 						Sign in to `Hospital Name`
 					</h2>
@@ -35,6 +40,8 @@ export default function Login() {
 					</form>
 				</div>
 				</div>
+			</div>
+				
 		</>
 	)
 }

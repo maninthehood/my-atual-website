@@ -1,8 +1,9 @@
 import React from 'react';
 import '../App.css';
 import Login from './Login';
-import Staff from './Staff';
-// import Goals from './Goals';
+import Goals from './Goals';
+import Cta from './Cta'
+
 
 export default function Home() {
 	return (
@@ -54,7 +55,7 @@ export default function Home() {
 				</div>
 
 			</section>
-			<Staff />
+			<Cta />
 		</>
 	)
 }
