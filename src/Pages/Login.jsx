@@ -3,11 +3,6 @@ import React from 'react';
 export default function Login() {
 	return (
 		<>
-	
-		
-		
-		
-
 			<div classNameName='bg-gray-900 flex'>
 
 				<div className="md:w-[690px] lg:max-w-xl md:max-h-xl m-auto  p-6 my-24 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl   dark:bg-gray-800">
