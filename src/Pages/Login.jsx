@@ -4,11 +4,11 @@ export default function Login() {
 	return (
 		<>
 			<div classNameName='bg-gray-900 flex'>
-
+				
 				<div className="md:w-[690px] lg:max-w-xl md:max-h-xl m-auto  p-6 my-24 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl   dark:bg-gray-800">
 					
 					<h2 className="text-2xl font-bold text-gray-900 dark:text-white">
-						Sign in to `Hospital Name`
+						Sign in to Merrit Hospital
 					</h2>
 					<form className="mt-8 space-y-6" action="#" method="post">
 						<div>
