@@ -12,7 +12,7 @@ import Staff from './Pages/Staff';
 
 export default function App() {
 	return (
-		<div class="dark:bg-gray-900">
+		<div class="dark:bg-violet-700">
 			<NavBar />
 			<Routes>
 				<Route path="/" element={<Home />} />
