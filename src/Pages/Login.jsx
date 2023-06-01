@@ -3,8 +3,8 @@ import React from 'react';
 export default function Login() {
 	return (
 		<>
-			<div classNameName='bg-gray-900 flex '>
-				<div className="md:w-[690px] lg:max-w-xl md:max-h-xl m-auto  p-6 my-24 space-y-8 sm:p-8 bg-white rounded-lg shadow-xl   dark:bg-gray-800">
+			<div classNameName='flex'>
+				<div className="md:w-[690px] lg:max-w-xl md:max-h-xl m-auto  p-6 my-24 space-y-8 sm:p-8  rounded-lg shadow-xl dark:bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900 ">
 
 					<h2 className="text-2xl font-bold text-gray-900 dark:text-white">
 						Sign in to Merrit Hospital
@@ -12,7 +12,7 @@ export default function Login() {
 					<form className="mt-8 space-y-6" action="#" method="post">
 						<div>
 							<label for="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
-							<input type="email" name="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required />
+							<input type="email" name="email" id="email" className=" border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required />
 						</div>
 						<div>
 
