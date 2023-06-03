@@ -6,7 +6,7 @@ import Form from './Form'
 export default function Home() {
 	return (
 		<>
-			<section class="bg-cover bg-fixed  selection:bg-fuchsia-300 bg-center bg-no-repeat bg-[url('https://www.novaurology.com/wp-content/uploads/2021/04/MYP_Summit-PR-3091-optimized.jpg')] bg-gray-700 text-sky-500 bg-blend-hard-light dark:bg-blend-multiply ">
+			<section class="bg-cover bg-fixed   bg-center bg-no-repeat bg-[url('https://www.novaurology.com/wp-content/uploads/2021/04/MYP_Summit-PR-3091-optimized.jpg')] bg-gray-700 text-sky-500 bg-blend-hard-light dark:bg-blend-multiply ">
 				<div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 ">
 					<h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl dark:text-white">I invest in Building Beautiful Websites</h1>
 					<p class="mb-8 text-lg  font-normal lg:text-xl sm:px-16 lg:px-48 dark:text-white">Here at Merrit Hospital we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
