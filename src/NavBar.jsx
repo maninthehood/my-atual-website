@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function NavBar() {
   return (
     <>
-      <nav className="bg-white  border-gray-200 dark:bg-gray-900  border-b-4 border-indigo-500 ">
+      <nav className="bg-white  border-gray-200 dark:bg-gray-900  border-b-4 border-violet-900 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 duration-500">
           <a className="flex items-center">
             <img
