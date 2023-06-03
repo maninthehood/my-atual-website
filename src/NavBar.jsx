@@ -31,7 +31,7 @@ export default function NavBar() {
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path 
+              <path
                 fill-rule="evenodd"
                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                 clip-rule="evenodd"
@@ -55,25 +55,50 @@ export default function NavBar() {
               <li>
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-									
+
 
                   to="/goals">Goals</Link>
               </li>
               <li>
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-									
-                  to="/profile">Login</Link>
+
+                  to="/visit">Visit</Link>
               </li>
-							
-							<li>
-								
+
+              <li>
+                <Link
+                  className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+
+                  to="/appointments">Appointments</Link>
+              </li>
+                            <li>
+                <Link
+                  className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+									
+                  to="/session">Session</Link>
+              </li>
+                            <li>
+                <Link
+                  className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+									
+                  to="/dashboard">Dashboard</Link>
+              </li>
+              <li>
+                <Link
+                  className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+									
+                  to="/employee">Employee</Link>
+              </li>
+
+              <li>
+
                 <Link
                   className=" block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-									
+
                   to="/staff">
-									
-									Staff of the month</Link>
+
+                  Staff of the month</Link>
               </li>
             </ul>
           </div>
