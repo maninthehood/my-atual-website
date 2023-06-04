@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function NavBar() {
   return (
     <>
-      <nav className="bg-white  border-gray-200 dark:bg-gray-900  border-b-4 border-violet-900 ">
+      <nav className="bg-white dark:bg-gray-900  border-b-4 border-violet-900 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 duration-500">
           <a className="flex items-center">
             <img
@@ -38,7 +38,7 @@ export default function NavBar() {
               ></path>
             </svg>
           </button>
-          <div className="hidden w-full md:block md:w-auto duration-500" id="navbar-default">
+          <div className="hidden w-full md:block md:w-auto duration-500 truncate" id="navbar-default">
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border duration-500 border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <Link
@@ -72,25 +72,30 @@ export default function NavBar() {
 
                   to="/appointments">Appointments</Link>
               </li>
-                            <li>
+              <li>
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-									
+
                   to="/session">Session</Link>
               </li>
-                            <li>
+              <li>
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-									
+
                   to="/dashboard">Dashboard</Link>
               </li>
               <li>
                 <Link
                   className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-									
+
                   to="/employee">Employee</Link>
               </li>
+              <li>
+                <Link
+                  className="block py-2 pl-3 pr-4  dark:bg-gray-900 hover:text-violet-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
 
+                  to="/login">Login</Link>
+              </li>
               <li>
 
                 <Link
