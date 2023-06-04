@@ -4,6 +4,11 @@ import Cta from './Cta'
 import Form from './Form'
 
 export default function Home() {
+	const img = document.querySelectorAll('img')
+
+	window.addEventListener('scroll', () =>{
+		img.style.position = "absolute"
+	})
 	return (
 		<>
 			<section class="bg-cover bg-fixed   bg-center bg-no-repeat bg-[url('https://www.novaurology.com/wp-content/uploads/2021/04/MYP_Summit-PR-3091-optimized.jpg')] bg-gray-700 text-sky-500 bg-blend-hard-light dark:bg-blend-multiply ">
