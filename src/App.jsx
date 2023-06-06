@@ -32,6 +32,7 @@ export default function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/patient" element={<Patient />} />
         <Route path="/visit" element={<Visit />} />
+        <Route path="/login" element={<Login />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
