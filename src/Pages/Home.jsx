@@ -8,7 +8,7 @@ export default function Home() {
 		<>
 			<section class="bg-cover bg-fixed   bg-center bg-no-repeat bg-[url('blob:https://dreamstudio.ai/7e15d2e4-0eae-484d-991a-be04f43df55d')] bg-gray-700 text-sky-500 bg-blend-hard-light dark:bg-blend-multiply ">
 				<div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56 ">
-					<h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl dark:text-white">I invest in Building Beautiful Websites</h1>
+					<h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl dark:text-white">We Strive to Build Generative and Inspiration Website</h1>
 					<p class="mb-8 text-lg  font-normal lg:text-xl sm:px-16 lg:px-48 dark:text-white">Here at Merrit Hospital we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
 					<div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
 						<a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
