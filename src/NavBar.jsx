@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   return (
@@ -13,7 +13,7 @@ export default function NavBar() {
               alt="Website Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              <Link to="/">`Hospital Name`</Link>
+              <Link to="/">Walter Ronoh</Link>
             </span>
           </a>
           <button
@@ -31,33 +31,58 @@ export default function NavBar() {
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path 
+              <path
                 fill-rule="evenodd"
                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                 clip-rule="evenodd"
               ></path>
             </svg>
           </button>
-          <div className="hidden w-full md:block md:w-auto duration-500" id="navbar-default">
+          <div
+            className="hidden w-full md:block md:w-auto duration-500"
+            id="navbar-default"
+          >
             <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border duration-500 border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-
               <li>
                 <Link
                   className="block py-2 pl-3 pr-4 text-white bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-
-                  to="/about">About</Link>
+                  to="/about"
+                >
+                  About
+                </Link>
               </li>
               <li>
                 <Link
                   className="block py-2 pl-3 pr-4 text-white bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+                  to="/goals"
+                >
+                  Goals
+                </Link>
+              </li>
 
-                  to="/goals">Goals</Link>
+              <li>
+                <Link
+                  className="block py-2 pl-3 pr-4 text-white bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+                  to="/contacts"
+                >
+                  Contacts
+                </Link>
               </li>
               <li>
                 <Link
                   className="block py-2 pl-3 pr-4 text-white bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
-
-                  to="/profile">Login</Link>
+                  to="/portfolio"
+                >
+                  Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="block py-2 pl-3 pr-4 text-white bg-gray-900 hover:bg-slate-700 hover:text-sky-400 duration-500 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500 mb-2"
+                  to="/blog"
+                >
+                  Blog
+                </Link>
               </li>
             </ul>
           </div>
